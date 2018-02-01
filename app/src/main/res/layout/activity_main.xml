@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comt.example.administrator.hello_5.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/fireOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclickButton"
+
+                android:text="FireOne" />
+
+            <RadioButton
+                android:id="@+id/firTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="onclickButton"
+
+
+                android:text="FireTwo" />
+
+            <RadioButton
+                android:id="@+id/fireThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="onclickButton"
+
+                android:text="FireThree" />
+
+            <RadioButton
+                android:id="@+id/fireFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="onclickButton"
+                android:text="FireFour"
+
+                />
+        </RadioGroup>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
